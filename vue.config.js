@@ -1,4 +1,5 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  transpileDependencies: true
-})
+  publicPath: "/gay-man-net-work/", // 替换为你的仓库名字
+  transpileDependencies: true,
+});
